@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{4830BA97-B4BF-46D3-86A2-BE461A2C45B8}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookApp Status">
+    <Files>
+      <File FileName="ComicBookApp Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ComicBookApp PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
