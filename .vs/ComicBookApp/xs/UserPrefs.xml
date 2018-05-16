@@ -3,8 +3,7 @@
     <Files>
       <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="21" Column="10" />
       <File FileName="ComicBookApp/Program.cs" Line="17" Column="1" />
-      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="33" Column="7" />
-      <File FileName="ComicBookApp/Views/ComicBooks/Index.cshtml" Line="2" Column="2" />
+      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="18" Column="1" />
       <File FileName="ComicBookApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

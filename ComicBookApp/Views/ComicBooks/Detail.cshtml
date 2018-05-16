@@ -23,11 +23,17 @@
     <div>
         @Html.Raw(description)
     </div>
+    @if(artists.Length > 0)
+    {
     <h5>
         Artists:
     </h5>
     <div>
+        <ul>
         @for(var i = 0; i < artists.Length; i++)
-            {<p>@artists[i]</p>}
+            {<li>@artists[i]</li>}
+        </ul>
     </div>
+    }
+
 </div>
