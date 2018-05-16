@@ -1,27 +1,28 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model ComicBookApp.Models.ComicBook
 @{
   Layout = "~/Views/Shared/_Layout.cshtml";
-  ViewBag.Title = "Comic Book Detail";
+  ViewBag.Title = Model.DisplayText;
 }
 
 <div class="container" >
-    <h1>@ViewBag.SeriesTitle</h1>
-    <h2>Issue #@ViewBag.IssueNumber </h2>
+    <h1>@Model.SeriesTitle</h1>
+    <h2>Issue #@Model.IssueNumber </h2>
     <h5>Description:</h5>
     <div>
-        @Html.Raw(ViewBag.Description)
+        @Html.Raw(Model.DescriptionHtml)
     </div>
-    @if(ViewBag.Artists.Length > 0)
+    @if(Model.Artists.Length > 0)
     {
     <h5>
         Artists:
     </h5>
     <div>
         <ul>
-        @for(var i = 0; i < ViewBag.Artists.Length; i++)
-            {<li>@ViewBag.Artists[i]</li>}
+        @for(var i = 0; i < Model.Artists.Length; i++)
+            {<li>@Model.Artists[i].Name -> @Model.Artists[i].Role</li>}
         </ul>
     </div>
     }
