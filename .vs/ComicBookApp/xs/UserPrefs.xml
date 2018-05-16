@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookApp Status">
     <Files>
       <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="36" Column="1" />
-      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="17" Column="9" />
+      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="28" Column="5" />
+      <File FileName="ComicBookApp/Views/Shared/_Layout.cshtml" Line="12" Column="57" />
       <File FileName="ComicBookApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
