@@ -15,5 +15,14 @@ namespace ComicBookApp.Controllers
             return View();
         }
 
+        public ActionResult Detail()
+        {
+            if(DateTime.Today.DayOfWeek == DayOfWeek.Tuesday)
+            {
+                return Redirect("/");
+            }
+            return Content("Buddy is a good boy.");
+        }
+
     }
 }
