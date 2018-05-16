@@ -14,5 +14,6 @@ namespace ComicBookApp.Controllers
         {
             return View();
         }
+
     }
 }
