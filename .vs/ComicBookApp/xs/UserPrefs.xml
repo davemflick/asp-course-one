@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{4830BA97-B4BF-46D3-86A2-BE461A2C45B8}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookApp Status">
     <Files>
-      <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="40" Column="1" />
-      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="31" Column="15" />
+      <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="37" Column="24" />
       <File FileName="ComicBookApp/Models/ComicBook.cs" Line="21" Column="10" />
+      <File FileName="ComicBookApp/Data/ComicBookRepository.cs" Line="48" Column="38" />
       <File FileName="ComicBookApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
