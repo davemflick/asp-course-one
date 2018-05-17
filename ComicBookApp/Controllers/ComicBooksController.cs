@@ -20,7 +20,8 @@ namespace ComicBookApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var comicBooks = _comicBookRepository.GetComicBooks();
+            return View(comicBooks);
         }
 
 
