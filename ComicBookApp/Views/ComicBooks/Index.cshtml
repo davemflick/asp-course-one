@@ -1,7 +1,24 @@
-﻿@{
- ViewData["Title"] = "Home Page";
+﻿@model ComicBookApp.Models.ComicBook[]
+
+@{
+ ViewBag.Title = "Comic Books";
 }
 
 <div class="container">
-    <h1>Comic Book Store</h1>
+    <h1>@ViewBag.Title</h1>
+    <div class="row">
+        @foreach(var comic in Model)
+        {
+        <a href="/ComicBooks/Detail/@comic.ID">
+            <div class="col-md-3">
+                
+                <h4>@comic.DisplayText</h4>
+                <img src="/Images/@comic.CoverImageFileName" 
+                     alt="@comic.DisplayText" 
+                    class="img-responsive" />
+            </div>
+        </a>
+        }
+
+    </div>
 </div>

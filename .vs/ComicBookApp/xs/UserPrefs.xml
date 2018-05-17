@@ -4,7 +4,8 @@
       <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="24" Column="37" />
       <File FileName="ComicBookApp/Models/ComicBook.cs" Line="24" Column="27" />
       <File FileName="ComicBookApp/Data/ComicBookRepository.cs" Line="65" Column="10" />
-      <File FileName="ComicBookApp/Views/ComicBooks/Index.cshtml" Line="7" Column="7" />
+      <File FileName="ComicBookApp/Views/ComicBooks/Index.cshtml" Line="21" Column="10" />
+      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="30" Column="41" />
       <File FileName="ComicBookApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
