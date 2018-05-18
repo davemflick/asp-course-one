@@ -3,6 +3,8 @@
     <Files>
       <File FileName="ComicBookApp/Controllers/ComicBooksController.cs" Line="24" Column="37" />
       <File FileName="ComicBookApp/Views/ComicBooks/Index.cshtml" Line="18" Column="21" />
+      <File FileName="ComicBookApp/Views/Shared/_Layout.cshtml" Line="35" Column="13" />
+      <File FileName="ComicBookApp/Views/ComicBooks/Detail.cshtml" Line="35" Column="1" />
       <File FileName="ComicBookApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
